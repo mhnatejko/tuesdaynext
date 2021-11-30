@@ -1,6 +1,6 @@
-import { NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from "next";
 
-export default function preview (req, res: NextApiResponse){
+export default function preview (req: NextApiRequest, res: NextApiResponse){
     res.setPreviewData({});
-    res.redirect(req.query.route); // /api/preview?route=/
+    res.redirect(req.query.route as string); // /api/preview?route=/
 }

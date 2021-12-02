@@ -7,6 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
+    "commit": "cz",
     "prettier:write": "npx prettier --write ."
   },
   "dependencies": {
@@ -17,11 +18,18 @@
   "devDependencies": {
     "@types/node": "16.11.11",
     "@types/react": "17.0.37",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
     "prettier": "2.5.0",
     "typescript": "4.5.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

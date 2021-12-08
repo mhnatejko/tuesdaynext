@@ -1,3 +1,30 @@
 {
-  "extends": ["next/core-web-vitals", "next", "prettier"]
+  "plugins": ["react", "jest-dom", "testing-library", "cypress", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:jest-dom/recommended",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended" // <- this one should be last element in this array
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "react/no-array-index-key": [2],
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ]
+  }
 }

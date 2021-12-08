@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "numTestsKeptInMemory": 15,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 15000,
+  "video": true,
+  "requestTimeout": 8000,
+  "responseTimeout:": 8000,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  }
+}

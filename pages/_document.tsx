@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
             defer
             src='//js-eu1.hs-scripts.com/25523533.js'
           />
-          <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+          <script type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
           <script>
             hbspt.forms.create({
             region: "eu1",

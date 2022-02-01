@@ -13,19 +13,19 @@ export default class MyDocument extends Document {
             defer
             src='//js-eu1.hs-scripts.com/25523533.js'
           />
-          <script type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
-          <script>
-            hbspt.forms.create({
-            region: "eu1",
-            portalId: "25523533",
-            formId: "77af856f-eaae-4f68-8484-c6d7661d68f7"
-          });
-          </script>
           {/* <!-- End of HubSpot Embed Code --> */}
         </Head>
         <body>
           <Main />
           <NextScript />
+           <script type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+            <script>
+              hbspt.forms.create({
+              region: "eu1",
+              portalId: "25523533",
+              formId: "77af856f-eaae-4f68-8484-c6d7661d68f7"
+            });
+            </script>
         </body>
       </Html>
     );

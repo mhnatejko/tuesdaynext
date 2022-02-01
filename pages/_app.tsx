@@ -3,8 +3,6 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
 
-export const fn = (x: number, _y: any) => x * 1;
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>

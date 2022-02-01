@@ -23,6 +23,13 @@ function MyApp({ Component, pageProps }: AppProps) {
             `,
         }}
       />
+      <Script
+        type='text/javascript'
+        id='hs-script-loader'
+        async
+        defer
+        src='//js-eu1.hs-scripts.com/25527733.js'
+      />
     </>
   );
 }

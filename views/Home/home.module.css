@@ -1,111 +1,109 @@
 .body {
-    background-color: red;
-
+  background-color: red;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column-reverse;
-    overflow: hidden;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    color: #333;
-    position: relative;
-    /* background-color: rgb(35, 132, 85); */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: #333;
+  position: relative;
+  /* background-color: rgb(35, 132, 85); */
 }
 
 .blob1 {
-    position: absolute;
-    top: -390px;
-    left: -520px;
+  position: absolute;
+  top: -390px;
+  left: -520px;
 }
 
 .blob1 svg {
-    width: 800px;
-    height: 800px;
+  width: 800px;
+  height: 800px;
 }
 
 .blob2 {
-    position: absolute;
-    bottom: -470px;
-    right: -360px;
+  position: absolute;
+  bottom: -470px;
+  right: -360px;
 }
 
 .blob2 svg {
-    width: 800px;
-    height: 800px;
+  width: 800px;
+  height: 800px;
 }
 
 .text {
-    width: 100%;
-    z-index: 2;
+  width: 100%;
+  z-index: 2;
 }
 
 .text h1 {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 .text p {
-    color: gray
+  color: gray;
 }
 
 .picture {
-    max-width: 100%;
-    width: 100%;
-    z-index: 2;
-    /* background-color: rgb(88, 71, 131); */
+  max-width: 100%;
+  width: 100%;
+  z-index: 2;
+  /* background-color: rgb(88, 71, 131); */
 }
 
 .picture svg {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media screen and (min-width: 425px) {
-    .picture {
-        width: 100%;
-     
-    }
+  .picture {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) {
-    .container {
-        flex-direction: row;
-        padding: 2rem;
-    }
+  .container {
+    flex-direction: row;
+    padding: 2rem;
+  }
 
-    .picture {
-        max-width: 80%;
-    }
+  .picture {
+    max-width: 80%;
+  }
 
-    .blob1 {
-        top: -280px;
-        left: -420px;
-    }
+  .blob1 {
+    top: -280px;
+    left: -420px;
+  }
 
-    .blob2 {
-        bottom: -310px;
-        right: -250px;
-    }
+  .blob2 {
+    bottom: -310px;
+    right: -250px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
-        padding: 4rem;
-    }
+  .container {
+    padding: 4rem;
+  }
 
-    .text {
-        width: 80%
-    }
+  .text {
+    width: 80%;
+  }
 }
 
 .colors {
-    color: #ffffff;
-    color: #dcf4e6;
-    color: #91d9af;
-    color: #dbb27d;
+  color: #ffffff;
+  color: #dcf4e6;
+  color: #91d9af;
+  color: #dbb27d;
 }

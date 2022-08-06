@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           />
           {/* <!-- End of HubSpot Embed Code --> */}
         </Head>
-        <body>
+        <body className='body'>
           <Main />
           <NextScript />
         </body>

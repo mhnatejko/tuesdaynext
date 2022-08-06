@@ -6,12 +6,12 @@ import Script from 'next/script';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <Script
         type='text/javascript'
         src='//js-eu1.hsforms.net/forms/shell.js'
       />
-      <Script
+      {/* <Script
         id='hsscript'
         dangerouslySetInnerHTML={{
           __html: `
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             })
             `,
         }}
-      />
+      /> */}
       <Script
         type='text/javascript'
         id='hs-script-loader'

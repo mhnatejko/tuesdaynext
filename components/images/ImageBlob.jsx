@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ImageBlob = ({ color1, color2 }) => {
   return (
     <svg viewBox='0 0 1000 1000'>

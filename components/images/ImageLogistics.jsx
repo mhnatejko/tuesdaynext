@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ImageLogistics = ({ color }) => {
   return (
     <svg viewBox='0 0 1144 651.26'>

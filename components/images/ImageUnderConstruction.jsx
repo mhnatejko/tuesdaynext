@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ImageUnderConstruction = ({ color }) => {
   return (
     <svg viewBox='0 0 1177.82 724.47'>

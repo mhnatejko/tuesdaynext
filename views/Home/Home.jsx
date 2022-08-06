@@ -7,7 +7,7 @@ import ImageUnderConstruction from '../../components/images/ImageUnderConstructi
 const Home = () => {
   const primaryColor = '#91d9af';
   const primaryColorDarker = '#94cdac';
-//   const secondaryColor = '#dbb27d';
+  //   const secondaryColor = '#dbb27d';
   const grayColor = '#dcf4e6';
   const grayColorDarker = '#a0c9b1';
 

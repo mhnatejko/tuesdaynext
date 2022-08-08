@@ -1,4 +1,4 @@
-import Poland from "../views/Poland/Poland";
+import Poland from '../views/Poland/Poland';
 
 const PolandPage = () => <Poland />;
 

@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Script
+      {/* <Script
         type='text/javascript'
         src='//js-eu1.hsforms.net/forms/shell.js'
-      />
+      /> */}
       {/* <Script
         id='hsscript'
         dangerouslySetInnerHTML={{
@@ -23,13 +23,13 @@ function MyApp({ Component, pageProps }: AppProps) {
             `,
         }}
       /> */}
-      <Script
+      {/* <Script
         type='text/javascript'
         id='hs-script-loader'
         async
         defer
         src='//js-eu1.hs-scripts.com/25527733.js'
-      />
+      /> */}
     </>
   );
 }

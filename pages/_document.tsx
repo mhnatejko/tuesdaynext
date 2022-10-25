@@ -14,6 +14,10 @@ export default class MyDocument extends Document {
             src='//js-eu1.hs-scripts.com/25523533.js'
           />
           {/* <!-- End of HubSpot Embed Code --> */}
+          <title>Hnatejko page</title>
+          <meta name="description" content="Hnatejko page"/>
+          <meta name="keywords" content="Hnatejko"/>
+          <meta name="author" content="M. Hnatejko"/>
         </Head>
         <body className='body'>
           <Main />
